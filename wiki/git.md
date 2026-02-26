@@ -4,8 +4,7 @@
 
 - [What is `Git`](#what-is-git)
 - [Commit](#commit)
-  - [Commit message](#commit-message)
-    - [`Conventional Commits`](#conventional-commits)
+- [Commit message](#commit-message)
 - [How `Git` works - text](#how-git-works---text)
 - [How `Git` works - videos](#how-git-works---videos)
 - [Merge conflict](#merge-conflict)
@@ -18,11 +17,28 @@
 
 ## What is `Git`
 
+`Git` is a distributed version control system that tracks changes in your files and lets multiple people collaborate on the same codebase. It records a history of every change, so you can revert mistakes, compare versions, and work on features in parallel using branches.
+
+Docs:
+
+- [Git Reference](https://git-scm.com/doc)
+- [Git Cheat Sheet](https://git-scm.com/cheat-sheet)
+
 ## Commit
 
-### Commit message
+A commit is a snapshot of your project at a specific point in time. Each commit records what changed since the previous commit, who made the change, and a [commit message](#commit-message) describing why. Commits form a history that you can browse, revert, or branch from.
 
-#### `Conventional Commits`
+## Commit message
+
+A commit message is a short description attached to each commit. It explains **what** was changed and **why**. Good commit messages make the project history readable and help teammates understand changes without reading the code.
+
+Guidelines:
+
+- Keep the first line short (under 72 characters).
+- Use the imperative mood ("add feature", not "added feature").
+- Focus on why the change was made, not just what changed.
+- (Optional) follow the [`Conventional Commits`](#conventional-commits) specification.
+
 
 - Learn about [`Conventional Commits`](https://www.conventionalcommits.org/en/v1.0.0/) for commit message formatting.
 
