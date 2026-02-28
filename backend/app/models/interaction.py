@@ -39,4 +39,5 @@ class InteractionModel(SQLModel):
     learner_id: int
     item_id: int
     kind: str
+    # created_at: datetime
     created_at: datetime
